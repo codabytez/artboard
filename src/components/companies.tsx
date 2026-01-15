@@ -1,6 +1,6 @@
-import { companies } from './companies'
+import { companies } from './logo-section'
 
-export const LogosSection = () => {
+export const Companies = () => {
   return (
     <div className="pt-20 pb-10 border-b border-gray-100 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 text-center">

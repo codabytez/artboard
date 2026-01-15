@@ -2,7 +2,7 @@ export const CTASection = () => {
   return (
     <section className="py-20 bg-white px-6">
       {/* Container with matching brand shape and scribble */}
-      <div className="max-w-6xl mx-auto bg-[#F8F9FF] rounded-[24px] p-12 md:p-20 text-center relative overflow-hidden">
+      <div className="max-w-6xl mx-auto bg-[#F8F9FF] rounded-3xl p-12 md:p-20 text-center relative overflow-hidden">
         {/* Hand-drawn scribble decoration in top left */}
         <div className="absolute top-8 left-8 w-16 h-16 opacity-80 rotate-[-15deg]">
           <svg

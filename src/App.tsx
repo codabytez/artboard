@@ -3,7 +3,7 @@ import {
   FeaturesSection,
   Footer,
   Hero,
-  LogosSection,
+  Companies,
   ManageExpensesSection,
   Navbar,
   NewsletterSection,
@@ -16,7 +16,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <LogosSection />
+      <Companies />
       <FeaturesSection />
       <ReceivePaymentsSection />
       <NewsletterSection />
