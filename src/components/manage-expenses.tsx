@@ -25,7 +25,7 @@ export const ManageExpensesSection = () => {
         {/* Right Side: Dashboard & Invoice Mockup */}
         <div className="relative order-1 lg:order-2 flex justify-center lg:justify-end">
           {/* Main Dashboard Background Card */}
-          <div className="bg-white rounded-xl shadow-2xl p-8 w-full max-w-md relative z-10 border border-gray-50">
+          <div className="h-54.75 bg-white rounded-xl shadow-2xl p-8 w-full max-w-md relative z-10 border border-gray-50 top-0">
             <h3 className="font-bold text-lg mb-6 text-gray-800">
               Daily Activities
             </h3>
@@ -48,22 +48,6 @@ export const ManageExpensesSection = () => {
                 <div className="w-3 bg-orange-400 rounded-full h-18"></div>
                 <span className="text-[10px] text-gray-400">Thu</span>
               </div>
-            </div>
-
-            {/* Scribble Decoration below chart */}
-            <div className="mt-8 opacity-40">
-              <svg
-                width="40"
-                height="40"
-                viewBox="0 0 100 100"
-                className="fill-current text-black"
-              >
-                <circle cx="20" cy="20" r="3" />
-                <circle cx="40" cy="30" r="3" />
-                <circle cx="25" cy="50" r="3" />
-                <circle cx="50" cy="15" r="3" />
-                <circle cx="15" cy="70" r="3" />
-              </svg>
             </div>
           </div>
 

@@ -8,7 +8,7 @@ export const Companies = () => {
           Companies we have helped grow
         </p>
 
-        <div className="flex flex-wrap justify-center md:justify-between items-center gap-8 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
+        <div className="flex flex-wrap justify-center md:justify-between items-center gap-8">
           {companies.map((company, index) => (
             <div key={index} className="flex items-center space-x-2">
               <img src={company.logo} alt={company.name} />

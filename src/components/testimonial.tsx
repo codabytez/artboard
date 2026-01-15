@@ -27,20 +27,6 @@ const testimonials = [
 export const TestimonialSection = () => {
   return (
     <section className="py-24 bg-white relative overflow-hidden">
-      {/* Background wave decoration */}
-      <div className="absolute top-0 left-0 w-full opacity-5 pointer-events-none">
-        <svg
-          viewBox="0 0 1440 320"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0,160L80,176C160,192,320,224,480,213.3C640,203,800,149,960,138.7C1120,128,1280,160,1360,176L1440,192V0H1360C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0H0Z"
-            fill="#4F46E5"
-          />
-        </svg>
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h4 className="text-indigo-600 font-bold uppercase tracking-widest text-sm mb-4">
